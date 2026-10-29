@@ -3,6 +3,6 @@ print("The original dictionary : " +  str(dictionary))
 t = 2
 res = 0
 for i in dictionary:
-    if dictionary[i] == j:
+    if dictionary[i] == t:
         res = res + 1
 print("Frequency of t is : " + str(res))
