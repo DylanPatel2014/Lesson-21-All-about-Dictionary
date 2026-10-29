@@ -1,8 +1,8 @@
-dictionary = {'Strawberry' : 7, 'Dylan' : 4, 'Homework' : 2, 'Codingal' : 3, 'Sadeya' : 6}
+dictionary = {'Codingal':3,'is' :2,'best':2,'for':2,'Coding':6,'and':1,'for':4,'Sadeya':10}
 print("The original dictionary : " +  str(dictionary))
-t = 2
-res = 0
+j = 10
+answer = 0
 for i in dictionary:
-    if dictionary[i] == t:
-        res = res + 1
-print("Frequency of t is : " + str(res))
+    if dictionary[i] == j:
+        answer = answer + 1
+print("Frequency of j is : " + str(answer))
